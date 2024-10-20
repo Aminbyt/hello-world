@@ -5,7 +5,4 @@ def odd_or_even (n):
     else:
         print(f'{n} is odd number')
 def name(args):
-    if args == 0:
-        print(f'arguments must be 0')
-    else:
-        pass
+    pass
