@@ -1,0 +1,1 @@
+This function is about ot check number is odd or even
