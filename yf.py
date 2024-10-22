@@ -9,3 +9,6 @@ print(btc.corr())
 
 plt.plot(df , labale = 'BTC-USD' , color = 'black')
 plt.show()
+
+#bar plot
+plt.bar(df , color = 'blue')
