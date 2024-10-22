@@ -1,3 +1,4 @@
+#show BTC in plot
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,5 +7,5 @@ df = pd.DataFrame(btc)
 
 print(btc.corr())
 
-plt.plot(df)
+plt.plot(df , labale = 'BTC-USD' , color = 'black')
 plt.show()
